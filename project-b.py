@@ -173,7 +173,7 @@ def update_chart(clickData, selected_years, stored_df):
         yaxis=dict(title="Electricity Access (%)", range=[0, 100], color="blue"),  # Fixed y1-axis
         yaxis2=dict(
             title="Infant Mortality (per 1,000)",
-            range=[0, 100],  # Fixed y2-axis
+            range=[0, 100],  # Fixed y2-axis with range 0-100
             overlaying="y", side="right", color="red"
         )
     )
